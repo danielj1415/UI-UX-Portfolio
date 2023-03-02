@@ -41,8 +41,7 @@ h1 {
   margin-top: 50px;
 }
 
-canvas {
-  display: block;
-  max-width: 40%;
-  height: 100%;
+.parent{
+  height: 350px;
+  width: 40%;
 }
