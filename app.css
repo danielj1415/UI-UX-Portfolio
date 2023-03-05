@@ -4,12 +4,14 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: rgb(255, 255, 255);
   color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding-right: 16px;
+  padding-top: 36px;
+  padding-left: 48px;
 }
 
 nav ul {
@@ -19,20 +21,19 @@ nav ul {
   display: flex;
 }
 
+.list-wrapper{
+  display:flex;
+  align-items:flex-end;
+}
+
 nav li {
-  margin: 0 10px;
+  margin-right: 32px;
 }
 
 nav a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.resume {
-  background-color: #fff;
   color: #000;
-  padding: 10px;
-  border-radius: 5px;
+  text-decoration: none;
+  font-family: "Lyon", sans-serif;
 }
 
 h1 {
@@ -41,12 +42,77 @@ h1 {
   margin-top: 50px;
 }
 
+.grayed-out a {
+  color: gray;
+  cursor: not-allowed;
+}
+
+
 .model{
   height: 500px;
   width: 500px;
+  margin-left: 70px;
 }
 
 .child{
   display: inline-block;
   vertical-align: middle;
+}
+
+.icon{
+  height: 100%;
+  width: 100%;
+}
+
+.bold{
+  font-family: "Lyon";
+  font-weight: bold;
+  font-size: 60px;
+}
+.medium{
+  font-family: "Lyon";
+  font-size: 30px;
+}
+
+.wrapper {
+  white-space: nowrap; /* Prevents wrapping */
+  text-align: center;
+}
+
+.left, .right {
+  display: inline-block;
+  width: 50%; /* Make each div take up half the width of the wrapper */
+  vertical-align: middle; /* Align the top edges of the divs */
+  text-align: left;
+}
+
+.top, .bottom{
+  width: 100%;
+  padding: 0px;
+}
+
+.medium, .bottom{
+  margin-top: -20px;
+}
+
+.wrapper{
+  height: 0px;
+}
+
+.headertext{
+  font-size: 22px;
+}
+
+@font-face {
+  font-family: 'Lyon';
+  src: url('assets/Lyon-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lyon';
+  src: url('assets/Lyon\ Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
