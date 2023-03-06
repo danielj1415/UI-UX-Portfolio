@@ -1,17 +1,20 @@
 body {
   margin: 0;
-  padding: 0;
+  padding:0;
+  background-color: white;
+  margin-left: 144px;
+  margin-right: 144px;
 }
 
 header {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 16px;
+  padding-right: 0px;
   padding-top: 36px;
-  padding-left: 48px;
+  padding-left: 0px;
 }
 
 nav ul {
@@ -30,10 +33,14 @@ nav li {
   margin-right: 32px;
 }
 
+nav li:last-child{
+  margin-right: auto;
+}
+
 nav a {
   color: #000;
   text-decoration: none;
-  font-family: "Lyon", sans-serif;
+  font-family: "LeagueSpartan";
 }
 
 h1 {
@@ -44,14 +51,17 @@ h1 {
 
 .grayed-out a {
   color: gray;
-  cursor: not-allowed;
+  
 }
 
+.grayed-out:hover {
+  color: #000; /* black on hover */
+}
 
 .model{
   height: 500px;
   width: 500px;
-  margin-left: 70px;
+  border:#000;
 }
 
 .child{
@@ -65,12 +75,12 @@ h1 {
 }
 
 .bold{
-  font-family: "Lyon";
+  font-family: "LeagueSpartan";
   font-weight: bold;
-  font-size: 60px;
+  font-size: 70px;
 }
 .medium{
-  font-family: "Lyon";
+  font-family: "LeagueSpartan";
   font-size: 30px;
 }
 
@@ -101,18 +111,24 @@ h1 {
 
 .headertext{
   font-size: 22px;
+  
 }
 
+.headertext:first-child a {
+  border-bottom: 2px solid black;
+}
+
+
 @font-face {
-  font-family: 'Lyon';
-  src: url('assets/Lyon-Regular.ttf') format('truetype');
+  font-family: 'LeagueSpartan';
+  src: url('assets/LeagueSpartan-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Lyon';
-  src: url('assets/Lyon\ Bold.ttf') format('truetype');
+  font-family: 'LeagueSpartan';
+  src: url('assets/LeagueSpartan-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
