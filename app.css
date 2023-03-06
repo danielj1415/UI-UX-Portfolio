@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding:0;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   margin-left: 144px;
   margin-right: 144px;
 }
@@ -13,8 +13,12 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-right: 0px;
-  padding-top: 36px;
+  padding-top: 24px;
   padding-left: 0px;
+}
+
+main{
+  align-items: left;
 }
 
 nav ul {
@@ -22,6 +26,12 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+}
+
+.name{
+  color: black;
+  font-family: "LeagueSpartan";
+  font-size: 22px;
 }
 
 .list-wrapper{
@@ -49,6 +59,10 @@ h1 {
   margin-top: 50px;
 }
 
+main{
+  margin-left: 0px;
+}
+
 .grayed-out a {
   color: gray;
   
@@ -59,9 +73,8 @@ h1 {
 }
 
 .model{
-  height: 500px;
-  width: 500px;
-  border:#000;
+  height: 600px;
+  width: 600px;
 }
 
 .child{
@@ -86,7 +99,7 @@ h1 {
 
 .wrapper {
   white-space: nowrap; /* Prevents wrapping */
-  text-align: center;
+  text-align: left;
 }
 
 .left, .right {
@@ -105,6 +118,14 @@ h1 {
   margin-top: -20px;
 }
 
+.left {
+  display: inline-block;
+  width: 50%;
+  margin-right: 0px; /* add this */
+  vertical-align: middle;
+  text-align: left;
+}
+
 .wrapper{
   height: 0px;
 }
@@ -117,6 +138,36 @@ h1 {
 .headertext:first-child a {
   border-bottom: 2px solid black;
 }
+
+.projectsImage{
+  width: 65%;
+  height: 65%;
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-text {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.project-text h2 {
+  margin-top: 20px;
+}
+
+.project-text p {
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
 
 
 @font-face {
