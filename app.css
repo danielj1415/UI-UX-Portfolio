@@ -1,20 +1,19 @@
 body {
   margin: 0;
   padding:0;
-  background-color: rgb(255, 255, 255);
-  margin-left: 144px;
-  margin-right: 144px;
+  background-color: rgb(230, 255, 243);
 }
 
 header {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 0px;
   padding-top: 24px;
-  padding-left: 0px;
+  padding-left: 144px;
+  padding-right: 144px;
+  padding-bottom: 12px;
 }
 
 main{
@@ -26,6 +25,11 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+}
+
+.fold{
+  margin-left: 144px;
+  margin-right: 144px;
 }
 
 .name{
@@ -61,6 +65,15 @@ h1 {
 
 main{
   margin-left: 0px;
+}
+
+.projectsBackground{
+  background-color: white;
+  margin-left: -144px;
+  margin-right: -144px;
+  padding-left: 144px;
+  padding-right: 144px;
+  padding-top: 72px;
 }
 
 .grayed-out a {
@@ -140,22 +153,27 @@ main{
 }
 
 .projectsImage{
-  width: 65%;
-  height: 65%;
+  width: 60%;
+  height: 60%;
   border: 1px solid black;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  float: left;
+  
 }
 
 .projects {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+
 }
 
-.project-text {
-  width: 65%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+.projects p{
+  margin-top: 0;
+  margin-left: 10%;
+}
+
+.projects a{
+  margin-left: 10%;
 }
 
 .project-text h2 {
@@ -168,7 +186,39 @@ main{
   line-height: 1.5;
 }
 
+.projectsTitle{
+  font-family: "LeagueSpartan";
+  font-size: 50px;
+  font-weight: bold;
+}
 
+.projectsDescription{
+  font-family: "LeagueSpartan";
+  font-size: 30px;
+  margin-bottom: 20px;
+  
+}
+
+.projectsRoles{
+  font-family: "LeagueSpartan";
+  font-size: 30px;
+  color: #7C7C7C;
+  padding-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  text-decoration: none;
+  font-family: "LeagueSpartan";
+  border-radius: 30px;
+}
+
+.button:hover {
+  background-color: rgb(70, 70, 70);
+}
 
 @font-face {
   font-family: 'LeagueSpartan';
