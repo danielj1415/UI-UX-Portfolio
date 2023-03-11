@@ -34,7 +34,7 @@ nav ul {
 
 .name{
   color: black;
-  font-family: "LeagueSpartan";
+  font-family: "Montserrat";
   font-size: 22px;
 }
 
@@ -54,7 +54,7 @@ nav li:last-child{
 nav a {
   color: #000;
   text-decoration: none;
-  font-family: "LeagueSpartan";
+  font-family: "Montserrat";
 }
 
 h1 {
@@ -68,7 +68,7 @@ main{
 }
 
 .projectsBackgroundZotGainz{
-  background-color: rgb(210, 223, 255);
+  background-color: rgb(226, 235, 255);
   margin-left: -144px;
   margin-right: -144px;
   padding-left: 144px;
@@ -79,7 +79,7 @@ main{
 }
 
 .projectsBackgroundOttr{
-  background-color: rgb(220, 255, 248);
+  background-color: rgb(229, 255, 250);
   margin-left: -144px;
   margin-right: -144px;
   padding-left: 144px;
@@ -100,6 +100,7 @@ main{
 .model{
   height: 600px;
   width: 600px;
+  padding-left: 72px;
 }
 
 .child{
@@ -113,13 +114,13 @@ main{
 }
 
 .bold{
-  font-family: "LeagueSpartan";
+  font-family: "Montserrat";
   font-weight: bold;
-  font-size: 70px;
+  font-size: 60px;
 }
 .medium{
-  font-family: "LeagueSpartan";
-  font-size: 30px;
+  font-family: "Montserrat";
+  font-size: 24px;
 }
 
 .wrapper {
@@ -165,8 +166,8 @@ main{
 }
 
 .projectsImage{
-  width: 60%;
-  height: 60%;
+  width: 58%;
+  height: 58%;
   border: 1px solid black;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
   float: left;
@@ -199,24 +200,24 @@ main{
 }
 
 .projectsTitle{
-  font-family: "LeagueSpartan";
-  font-size: 50px;
+  font-family: "Montserrat";
+  font-size: 48px;
   font-weight: bold;
   margin-bottom: 30px;
 }
 
 .projectsDescription{
-  font-family: "LeagueSpartan";
-  font-size: 30px;
+  font-family: "Montserrat";
+  font-size: 24px;
   margin-bottom: 15px;
   
 }
 
 .projectsRoles{
-  font-family: "LeagueSpartan";
-  font-size: 30px;
+  font-family: "Montserrat";
+  font-size: 20px;
   color: #4d4d4d;
-  padding-top: 20px;
+  padding-top: 12px;
 }
 
 .button {
@@ -225,7 +226,7 @@ main{
   background-color: rgb(0, 0, 0);
   color: #fff;
   text-decoration: none;
-  font-family: "LeagueSpartan";
+  font-family: "Montserrat";
   border-radius: 30px;
 }
 
@@ -238,7 +239,7 @@ main{
 }
 
 .contact-form {
-  font-family: 'LeagueSpartan', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   max-width: 500px;
   margin: 0 auto;
@@ -285,15 +286,15 @@ main{
 
 
 @font-face {
-  font-family: 'LeagueSpartan';
-  src: url('assets/LeagueSpartan-Regular.ttf') format('truetype');
+  font-family: 'Montserrat';
+  src: url('assets/Montserrat-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'LeagueSpartan';
-  src: url('assets/LeagueSpartan-Bold.ttf') format('truetype');
+  font-family: 'Montserrat';
+  src: url('assets/Montserrat-SemiBold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
