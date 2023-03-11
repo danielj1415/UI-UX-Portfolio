@@ -40,22 +40,25 @@
         <div class = "left model"><canvas id="canvas3d"></canvas></div>
       <div>
       <!--<div style="border-top: 2px solid black;"></div>-->
+      <div class = "spacer"></div>
 
-      <div class = "projectsBackground">
+      <div class = "projectsBackgroundZotGainz">
         <div class = "projects">
           <img src = "assets/Zotgainz.svg" class = "projectsImage">
           <div>
             <p class = "projectsTitle">ZotGainz</p>
-            <p class = "projectsDescription">Designed a mobile application where</p>
-            <p class = "projectsDescription">users can view busyness of the  </p>
-            <p class = "projectsDescription">recreational center and make</p>
+            <p class = "projectsDescription">Designed a mobile application </p>
+            <p class = "projectsDescription">where users can view busyness of</p>
+            <p class = "projectsDescription">the recreational center and make</p>
             <p class = "projectsDescription">reservations of sports facilities.</p>
             <p class = "projectsRoles">UX design | UI design</p>
             <a href="https://example.com" class="button">View Case Study</a>
           </div>
           <!--<div><img src = "assets/Ottr.svg" class = "projectsImage"></div>-->
         </div>
-        <div class = "spacer"></div>
+      </div>
+      <div class = "projectsBackgroundOttr">
+        
         <div class = "projects">
           <img src = "assets/Ottr.svg" class = "projectsImage">
           <div>
@@ -69,7 +72,24 @@
           <!--<div><img src = "assets/Ottr.svg" class = "projectsImage"></div>-->
         </div>
       </div>
+      <div class = "spacer"></div>
+      <div class="contact-form">
+        <h2>Contact Me</h2>
+        <form action="https://formsubmit.co/your-email-id" method="POST">
+          <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html" />
     
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+    
+          <button type="submit">Send Message</button>
+        </form>
+      </div>  
     </main>
 
     <script

@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding:0;
-  background-color: rgb(230, 255, 243);
+  background-color: rgb(255, 255, 255);
 }
 
 header {
@@ -67,13 +67,25 @@ main{
   margin-left: 0px;
 }
 
-.projectsBackground{
-  background-color: white;
+.projectsBackgroundZotGainz{
+  background-color: rgb(210, 223, 255);
   margin-left: -144px;
   margin-right: -144px;
   padding-left: 144px;
   padding-right: 144px;
-  padding-top: 72px;
+  padding-top: 36px;
+
+  padding-bottom: 36px;
+}
+
+.projectsBackgroundOttr{
+  background-color: rgb(220, 255, 248);
+  margin-left: -144px;
+  margin-right: -144px;
+  padding-left: 144px;
+  padding-right: 144px;
+  padding-top: 36px;
+  padding-bottom: 36px;
 }
 
 .grayed-out a {
