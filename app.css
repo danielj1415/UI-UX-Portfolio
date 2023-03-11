@@ -215,7 +215,7 @@ main{
 .projectsRoles{
   font-family: "LeagueSpartan";
   font-size: 30px;
-  color: #7C7C7C;
+  color: #4d4d4d;
   padding-top: 20px;
 }
 
@@ -234,8 +234,55 @@ main{
 }
 
 .spacer{
-  padding: 30px;
+  padding: 52px;
 }
+
+.contact-form {
+  font-family: 'LeagueSpartan', sans-serif;
+  font-weight: bold;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+}
+
+.contact-form label {
+  font-size: 1.2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+}
+
+.contact-form button[type="submit"] {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
 
 @font-face {
   font-family: 'LeagueSpartan';
